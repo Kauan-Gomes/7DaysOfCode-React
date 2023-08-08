@@ -1,9 +1,9 @@
-import Menu from './components/Menu';
+import Home from "pages/Home";
 
 export default function routerApp() {
   return (
     <div className="App">
-      <Menu/>
+      <Home/>
     </div>
   );
 }
