@@ -7,7 +7,7 @@ export const Nav = styled.header`
     
     ul{
         display: flex;
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 800;
         font-family: var(--fonte-principal);
         list-style-type: none;

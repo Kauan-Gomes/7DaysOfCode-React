@@ -16,30 +16,31 @@ export const Newsletter = styled.div`
     flex-direction: column;
 
     h4{
-        font-size: 22px;
+        font-size: 16px;
         font-weight: 400;
         width: 100%;
     }
     h2{
         font-family: var(--fonte-menu);
         font-weight: 900;
-        font-size: 82px;
+        font-size: 62px;
         margin: 0;
-        width: 585px;
+        width: 525px;
     }
     p{
-        font-size: 18px;
+        font-size: 16px;
         line-height: 29px;
         font-weight: 400;
-        width: 565px;
+        width: 525px;
     }
 
     form{
         align-items:center;
         position: relative;
+        width: 525px;
     input{
         border: none;
-        width: 430px;
+        width: 300px;
         height:75px;
         
         text-align:initial;
@@ -65,6 +66,7 @@ export const Newsletter = styled.div`
         color: var(--cor-branca);
         border: none;
         height:75px;
+        width:170px;
     }
     }
    
@@ -77,7 +79,7 @@ export const Foto = styled.div`
     img{
         margin: -43px;
         padding: 0;
-        height:820px;
+        height:620px;
     }
 `
 
