@@ -12,11 +12,11 @@ export default function Menu() {
         <img src={logo} alt="logo da Casa verde" />
       </div>
       <ul>
-        <MenuLink>Como Fazer</MenuLink>
-        <MenuLink><span>/</span>Ofertas</MenuLink>
-        <MenuLink><span>/</span>Depoimentos</MenuLink>
-        <MenuLink><span>/</span>Vídeos</MenuLink>
-        <MenuLink><span>/</span>Meu Carrinho</MenuLink>
+        <MenuLink barra="">Como Fazer</MenuLink>
+        <MenuLink barra="/">Ofertas</MenuLink>
+        <MenuLink barra="/">Depoimentos</MenuLink>
+        <MenuLink barra="/">Vídeos</MenuLink>
+        <MenuLink barra="/">Meu Carrinho</MenuLink>
       </ul>
 
     </Nav>
