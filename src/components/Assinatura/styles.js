@@ -14,35 +14,33 @@ export const SectionBanner = styled.section`
 export const Newsletter = styled.div`
     display:flex;
     flex-direction: column;
+    width: 525px;
+    margin-top: 40px;
 
-    h4{
-        font-size: 16px;
-        font-weight: 400;
-        width: 100%;
-    }
     h2{
-        font-family: var(--fonte-menu);
-        font-weight: 900;
         font-size: 62px;
         margin: 0;
         width: 525px;
     }
+    h4{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
     p{
         font-size: 16px;
-        line-height: 29px;
-        font-weight: 400;
-        width: 525px;
+        line-height: 26px;
     }
 
     form{
         align-items:center;
         position: relative;
-        width: 525px;
+        width: 512px;
+        box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.2);
+
     input{
-        border: none;
+        border: 0;
         width: 300px;
         height:75px;
-        
         text-align:initial;
         padding-left: 40px;
         font-size: 16px;
@@ -67,6 +65,8 @@ export const Newsletter = styled.div`
         border: none;
         height:75px;
         width:170px;
+        cursor: pointer;
+        margin-right: 0;
     }
     }
    
