@@ -1,9 +1,5 @@
 import styled from 'styled-components'
 
-
-
-
-
 export const Bola = styled.div`
     height: 52px;
     width: 52px;
@@ -13,19 +9,22 @@ export const Bola = styled.div`
 `
 
 export const SectionCard = styled.section`
-    width: 59%;
+    width: 995px;
     display:flex;
     justify-content:center;
     margin-top: 2%;
     height:auto;
     gap: 60px;
     box-shadow: 1px 1px 1px 1px #202020;
-    
-    
+    padding: 0;
+    img{
+
+    }
     
 `
 
 export const Topico = styled.div`
+    
     height:440px;
     margin: 0;
     padding: 0;
@@ -46,20 +45,23 @@ export const Topico = styled.div`
         font-style: normal;
         font-weight: 900;
         line-height: normal;
-        margin: 0 0 40px 0;
+        margin: 0;
     }
 
     ul{
         display:flex;
         flex-direction: column;
         height: 52px;
-        
+        gap: 60px;
+        padding: 0;
+
         li{
             padding: 0;
             display:flex;
             align-items: center;
+            gap: 10px;
             h4 {
-                
+                margin: 0 0 0 0;
             }
         }
 
