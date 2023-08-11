@@ -12,9 +12,6 @@ export const Nav = styled.header`
         font-family: var(--fonte-principal);
         list-style-type: none;
 
-        span{
-            padding: 0 30px;
-        }
     }
 
 `

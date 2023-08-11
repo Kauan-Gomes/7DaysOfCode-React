@@ -17,6 +17,7 @@ export default function Assinatura({ aoCadastrar }) {
     evento.preventDefault();
     //exibindo valor do email que foi colocado no input
     alert(`Obrigado pela sua assinatura, você receberá nossas novidades no e-mail ${email}`)
+    
   }
 
   // vai pegar o valor do input e passar para o setEmail para atualizar
