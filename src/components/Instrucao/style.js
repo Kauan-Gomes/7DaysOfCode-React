@@ -11,14 +11,11 @@ export const SectionCard = styled.section`
     width: 995px;
     display:flex;
     justify-content:center;
-    margin-top: 2%;
     height:auto;
     gap: 60px;
     box-shadow: 1px 1px 1px 1px #202020;
     padding: 0;
-    img{
-
-    }
+    margin: 2% 0 0 400px;
     
 `
 
