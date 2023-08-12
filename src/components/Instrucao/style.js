@@ -8,12 +8,12 @@ export const Bola = styled.div`
 `
 
 export const SectionCard = styled.section`
-    width: 995px;
+    width: 56%;
     display:flex;
     justify-content:center;
     height:auto;
     gap: 60px;
-    box-shadow: 1px 1px 1px 1px #202020;
+    box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.2);
     padding: 0;
     margin: 2% 0 0 400px;
     

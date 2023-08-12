@@ -1,6 +1,8 @@
+import Planta from 'BuscaApi'
 import Assinatura from 'components/Assinatura'
 import Instrucao from 'components/Instrucao'
 import Menu from 'components/Menu'
+import Ofertas from 'components/Ofertas'
 
 
 export default function Home() {
@@ -14,6 +16,8 @@ export default function Home() {
                 <section>
                     <Assinatura />
                     <Instrucao/>
+                    <Ofertas/>
+                    <Planta/>
                 </section>
             </main>
         </>
