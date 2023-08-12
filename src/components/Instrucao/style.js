@@ -23,51 +23,6 @@ export const SectionCard = styled.section`
 `
 
 export const Topico = styled.div`
-    
-    height:440px;
-    margin: 0;
-    padding: 0;
-
-    h4{
-        color: #202020;
-        font-family: var(--fonte-principal);
-        font-size: 22px;
-        font-weight: 400;
-        margin: 40px 0 0 0;
-        opacity: 0.5;
-    }
-    
-    h2{
-        color: #202020;
-        font-family: var(--fonte-menu);
-        font-size: 42px;
-        font-style: normal;
-        font-weight: 900;
-        line-height: normal;
-        margin: 0;
-    }
-
-    width: 940px;
-    height: 340px;
-    display: flex;
-    margin: 38px 0 0 300px;
-    box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.2);
-    gap:30px;
-
-    h2{
-       font-size: 42px;
-       padding: 0;
-       margin: 0 0 20px 0;
-
-    }
-    h4{
-        font-size: 18px;
-        padding: 0;
-        margin: 0;
-    }
-`
-
-export const Topico = styled.div`
     width: 44%;
     padding-top: 40px;
     
