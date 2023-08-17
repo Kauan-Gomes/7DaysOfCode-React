@@ -6,10 +6,11 @@ export const DivCard = styled.div`
     width: 380px;
     box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.2);
     justify-content: space-around;
+    margin-bottom: 50px;
 
     img{
         height:100%;
-        
+        width: 100%;
     }
 
     h2{
@@ -46,4 +47,12 @@ export const DivCard = styled.div`
     }
 
 
+`
+
+export const Seta = styled.button`
+
+img{
+    width: 22px;
+}
+        
 `
